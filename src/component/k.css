@@ -1,0 +1,88 @@
+@import url('http:fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+
+      monospace;
+  }
+  <>
+{tasks.map ((task) => (<h3> {task.text} </h3>))}
+</>
+
+
+const onClick = () => {
+  console.log ('Click')
+}
+
+import Header from "./component/header";
+
+
+
+
+import Header from './component/header'
+
+
+const tasks = [ {
+  id: 1,
+  text: 'Doctors Appoinment',
+  day: 'Feb 5th at 2:30pm',
+  reminder: true,
+},
+{
+  id: 2,
+  text: 'Meeting at School',
+  day: 'Feb 6th at 1:30pm',
+  reminder: true,
+},
+{
+  id: 3,
+  text: 'Food Shopping',
+  day: 'Feb 5th at 2:30pm',
+  reminder: false,
+}
+   
+]
+
+
+setTasks(task.filter ((task) => task.id !==
+  id))
+
+  setTasks(task.map((task)=>task.id===id? {...task, reminder: !task.reminder} :task))
+
+
+
+
+  <form className='add-form'>
+            <div className='form-control'>
+                <label>Task</label>
+                <input type='text' placeholder='addtask'/>
+           </div>
+           <div className='form-control'>
+                <label>Day & Time</label>
+                <input type='text' placeholder='add Day & Time'/>
+           </div>
+           <div className='form-control'>
+                <label>Set Reminder</label>
+                <input type='checkbox' />
+           </div>
+           <input type ='Submit' value='Save Task' />
+            
+        </form>
+
+        import {BrowserRouter as Router, Route } 
+from 'react-router-dom'
+<Router>
+<Route path='/about' component={About} />
+</Router>
+  
+{onAdd} />
+
+import Header from "./component/header";
